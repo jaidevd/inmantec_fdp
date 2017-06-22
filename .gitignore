@@ -99,3 +99,19 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# LaTeX
+*.log
+*.out
+*.snm
+*.vrb
+*.nav
+*.aux
+*.pdf
+*.toc
+
+# Vim Swaps
+*.swp
