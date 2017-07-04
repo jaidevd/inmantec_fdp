@@ -38,7 +38,6 @@
 }
 \newcounter{time}
 \setcounter{time}{0}
-\newcommand{\inctime}[1]{\addtocounter{time}{#1}{\tiny \thetime\ m}}
 
 \newcommand{\typ}[1]{\lstinline{#1}}
 
@@ -105,14 +104,11 @@ Ltd}
     \Large
     \begin{center}
         Special thanks to\\
-        Dr Prabhu Ramachandran\\
+        \alert{Dr Prabhu Ramachandran}\\
         and\\
-        FOSSEE group (\url{fossee.in}) \\
+        \alert{FOSSEE group (\url{fossee.in})} \\
         at\\
         IIT Bombay\\
-        and funded by\\
-        The National Mission on Education through ICT, \\
-        Ministry of HRD, India
     \end{center}
 \end{frame}
 
@@ -131,7 +127,7 @@ Ltd}
   \frametitle{About the Tutorial}
   \begin{block}{Intended Audience}
   \begin{itemize}
-       \item Engg., Mathematics and Science researchers with a
+      \item Engg., Mathematics and Science teachers \& researchers with a
            reasonable programming background.
   \end{itemize}
   \end{block}
@@ -139,8 +135,8 @@ Ltd}
   \begin{block}{Goal: Successful participants will be able to}
     \begin{itemize}
       \item Start using Python as plotting, computational tool.
-      \item Use the basic libraries and tools for scientific computing
-          with Python.
+      \item Use the basic libraries and tools for scientific computing and
+          machine learning with Python.
     \end{itemize}
   \end{block}
 \end{frame}
@@ -251,7 +247,6 @@ Breaking out of loops
 \begin{lstlisting}
   $ ipython --pylab
 \end{lstlisting} %$
-  \inctime{10}
 \end{frame}
 
 \section{Plotting}
@@ -298,7 +293,6 @@ Out[]: 6.2831853071795862
 \begin{block}{\typ{plot(x, y)}}
 plots \typ{x} and \typ{y} using default line style and color
 \end{block}
-\inctime{5}
 \end{frame}
 
 \subsection{Decoration}
@@ -421,7 +415,6 @@ In []: legend(['sin(2y)'], loc='center')
 'center'
 \end{lstlisting}
 \end{columns}
-\inctime{15}
 \end{frame}
 
 \begin{frame}
@@ -446,7 +439,6 @@ In []: legend(['sin(2y)'], loc='center')
 %% \begin{center}
 %%   \includegraphics[height=2in, interpolate=true]{data/loc}
 %% \end{center}
-%% %\inctime{10}
 %% \end{frame}
 
 \begin{frame}[fragile]
@@ -463,7 +455,6 @@ In []: plot(y, sin(y), 'g', linewidth=2)
 \begin{center}
   \includegraphics[height=2.2in, interpolate=true]{data/green}
 \end{center}
-%\inctime{10}
 \end{frame}
 
 \begin{frame}[fragile]
@@ -504,7 +495,6 @@ Some supported formats:
   \item \typ{savefig}
   \item \typ{close}
   \end{itemize}
-  \inctime{10}
 \end{frame}
 
 \begin{frame}[fragile]
@@ -534,7 +524,6 @@ In []: plot??
     to see the source code for \typ{plot}
 
 \end{itemize}
-\inctime{10}
 \end{frame}
 
 
